@@ -53,8 +53,8 @@ Estás construyendo **una sola empresa** a lo largo de muchos hitos y proyectos.
 
 > 💡 Actualmente el repositorio ofrece solo una **estructura base de carpetas y documentación**. Todavía no incluye aplicaciones ejecutables ni scripts globales en la raíz.
 >
-> - `CONTEXT.md` es un placeholder y debe sustituirse por el contexto de la empresa asignada.
-> - No existe todavía un `AGENTS.md` en la raíz.
+> - `CONTEXT.md` contiene actualmente un resumen de HealthCore y enlaces a `BRIEFING.md` y `memory-bank/`.
+> - El `AGENTS.md` de la raíz define las instrucciones para los agentes de programación; sus reglas y skills están en `.agents/`.
 > - Existe metadata del paquete compartido en `packages/shared/package.json` (`@repo/shared-types`), pero aún no hay runner de workspace en raíz.
 
 ---
@@ -67,7 +67,7 @@ Lee el `README.md` enlazado dentro de cada carpeta antes de empezar a programar 
 
 | Ruta                         | Propósito                                                            | Qué haces aquí                                                                                               |
 | ---------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [`CONTEXT.md`](./CONTEXT.md) | Fuente única de verdad de tu empresa (Brasaland, TrackFlow o Nexova) | **Primer paso:** copia aquí el briefing de tu empresa para que apps, agentes y prompts usen el mismo dominio |
+| [`CONTEXT.md`](./CONTEXT.md) | Resumen del contexto de la empresa; [`BRIEFING.md`](./BRIEFING.md) es la fuente principal del escenario empresarial | Léelo primero y sigue sus referencias a `BRIEFING.md` y `memory-bank/` para que apps, agentes y prompts usen el mismo dominio |
 | `docker-compose.yml`         | Orquestación local de todo el stack                                  | Mantener en la raíz del repo — conecta `services/`, bases de datos y otros contenedores desde un solo lugar  |
 | `README.md` / `README.es.md` | Esta guía                                                            | Orientación — estás aquí                                                                                     |
 

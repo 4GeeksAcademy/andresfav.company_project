@@ -53,8 +53,8 @@ You are building **one company** across many milestones and projects. Each top-l
 
 > 💡 This repository currently provides a **base folder structure and documentation skeleton** only. It does not include runnable apps or global scripts yet.
 >
-> - `CONTEXT.md` is a placeholder and must be replaced with your assigned company context.
-> - There is no root `AGENTS.md` yet.
+> - `CONTEXT.md` currently contains a summary of HealthCore and links to `BRIEFING.md` and `memory-bank/`.
+> - The root `AGENTS.md` defines the instructions for coding agents; their rules and skills live in `.agents/`.
 > - Shared package metadata exists in `packages/shared/package.json` (`@repo/shared-types`), but no workspace runner is configured at root.
 
 ---
@@ -67,7 +67,7 @@ Read the linked `README.md` inside each folder before you start coding there.
 
 | Path                         | Purpose                                                                   | What you do here                                                                                              |
 | ---------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [`CONTEXT.md`](./CONTEXT.md) | Single source of truth for your company (Brasaland, TrackFlow, or Nexova) | **First step:** copy your assigned company briefing here so every app, agent, and prompt uses the same domain |
+| [`CONTEXT.md`](./CONTEXT.md) | Summary of the company context; [`BRIEFING.md`](./BRIEFING.md) is the main source of the business scenario | Read it first, then follow its references to `BRIEFING.md` and `memory-bank/` so every app, agent, and prompt uses the same domain |
 | `docker-compose.yml`         | Local dev orchestration for the whole stack                               | Keep at repo root — wires `services/`, databases, and other containers from one place                         |
 | `README.md` / `README.es.md` | This guide                                                                | Orientation — you are here                                                                                    |
 

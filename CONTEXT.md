@@ -1,16 +1,18 @@
-# Your company context
+# Company context: HealthCore
 
-**Replace this content** with the CONTEXT for your assigned company:
+HealthCore is an outpatient healthcare company founded in 2011 in Austin, Texas. It runs a network of 12 clinics — nine in the United States (Texas, Florida and Georgia) and three in the United Kingdom (London and Manchester) — offering primary care, specialist consultations, chronic disease management and preventive health programmes. It employs about 200 people.
 
-- **Brasaland** — `brasaland-BRIEFING.md` (grilled food restaurant chain, Colombia + Florida)
-- **TrackFlow** — `trackflow-BRIEFING.md` (last-mile delivery and warehouse, US + Spain)
-- **Nexova** — `nexova-BRIEFING.md` (HR consulting and talent acquisition, Spain + US)
-- **HealthCore** — `healthcore-BRIEFING.md` (outpatient healthcare clinic network, US + UK)
+Its internal unit, HealthCore Digital, aims to modernise disconnected systems (two EHR platforms, phone and manual scheduling, fragmented billing) while protecting patient data under HIPAA (US) and UK GDPR (UK).
 
-Project statements will point you to the correct context file. Use its contents to build your project context here so that all project work and AI coding agents use the same domain data, field names, and constraints. Avoid copying and pasting the content; use your agents first.
+## Where to find the context
 
----
+- **Main source of the company scenario:** [`BRIEFING.md`](./BRIEFING.md) (in Spanish).
+- **Memory bank** (summaries for project work and coding agents):
+  - [`memory-bank/projectbrief.md`](./memory-bank/projectbrief.md): summarised business context and goals.
+  - [`memory-bank/techContext.md`](./memory-bank/techContext.md): technical context, monorepo structure and constraints.
+  - [`memory-bank/progress.md`](./memory-bank/progress.md): current project status and next steps.
+- **Instructions for coding agents:** [`AGENTS.md`](./AGENTS.md).
 
-_Until you add your context, keep this placeholder so the repo structure is clear._
+If this summary and `BRIEFING.md` differ, `BRIEFING.md` prevails.
 
-_Estas instrucciones también están disponibles en [español](./CONTEXT.es.md)._
+_This context is also available in [Spanish](./CONTEXT.es.md)._
